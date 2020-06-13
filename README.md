@@ -11,21 +11,37 @@ Inside of the client sub-directory is a working front-end with Metamask for test
 You can run:
 
 npm install
+
 npm init
+
 npm install -g truffle
+
 npm install @truffle/hdwallet-provider
+
 npm install dotenv
+
 npm install --save-dev web3
+
 npm install --save-dev chai
+
 npm install --save-dev chai-bn
+
 npm install --save-dev chai-as-promised
+
 npm install --save-dev ganache-cli
+
 npm install --save @openzeppelin/contracts@v3.0.0-beta.0
+
 truffle compile
+
 truffile migrate
+
 truffle test
+
 npx ganache-cli
+
 cd client && npm run start
+
 
 create a .env file in the root with the value: INITIAL_TOKENS=1000000000
 
